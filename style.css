@@ -21,3 +21,20 @@ button {
 button:hover {
   background-color: #6a0dad;
 }
+
+/* Responsivo para celular */
+@media (max-width: 600px) {
+  body {
+    padding: 20px;
+  }
+
+  h1 {
+    font-size: 1.5em;
+  }
+
+  button {
+    width: 80%;
+    font-size: 1em;
+    padding: 12px;
+  }
+}
